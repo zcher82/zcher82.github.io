@@ -1,7 +1,6 @@
-
-/* * {
+/* *{
 	border: 1px dotted blue;
-} */
+}*/
 
 div {
 	font-family: Courier;
@@ -16,16 +15,27 @@ div {
 	position: center;
 }
 
-#header {
-	line-height: 6px;
+figure img {
 	display: inline-block;
-	padding: 10px 20px 20px 25px;
+	max-width: 200px;
+	max-height: 500px;
+	width: auto;
+	height: auto;
+	float: left;
+	border: 5px solid white;
+	border-radius: 10px;
+	margin: 0 0 20px 10px;
 }
 
-#statement {
-	position: relative;
-	display: block;
-	padding: 20px 20px 20px 225px;
+header {
+	display: inline-block;
+	line-height: 6px;
+	margin: 30px 20px 30px 230px;
+}
+
+article {
+	display: inline-block;
+	margin: 30px 20px 20px 230px;
 }
 
 .position h4 {
@@ -59,23 +69,6 @@ div {
 	padding: 1px 10px 20px 10px;
 }
 
-img {
-	display: inline-block;
-	max-width: 200px;
-	max-height: 500px;
-	width: auto;
-	height: auto;
-	float: left;
-	padding: 15px 25px 25px 15px;
-	border-radius: 2px;
-}
-
-.imgframe {
-	background: white;
-	padding: 4px;
-	border: 1px solid white;
-}
-
 #experience {
 	clear: both;
 	padding: 10px;
@@ -98,6 +91,4 @@ img {
 	font-weight: bold;
 	text-decoration: underline;
 }
-
-
 
